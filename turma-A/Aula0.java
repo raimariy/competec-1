@@ -1,6 +1,24 @@
+import java.util.Scanner;
+
 public class Aula0{
 
     public static void main(String[] args){
+        /*Scanner entrada = new Scanner(System.in);
+        System.out.print("Qual seu nome? ");
+        String nome = entrada.nextLine();
+
+        System.out.println("Bom dia, " + nome + "!");
+
+        entrada.close();*/
+
+        Scanner ex = new Scanner(System.in);
+        System.out.print("Qual seu nome? ");
+        String nome = ex.nextLine();
+
+        System.out.print("Qual é sua idade? ");
+        int idade = ex.nextInt();
+
+        System.out.println("Seu nome é " + nome + " e vc tem " + idade + " anos " + "\n" + "Bom dia, " + nome + "!");
 
         /*int idade = 16;
         boolean cafe = false;
