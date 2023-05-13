@@ -20,6 +20,14 @@ public class Aula0{
 
         System.out.println("Seu nome é " + nome + " e vc tem " + idade + " anos " + "\n" + "Bom dia, " + nome + "!");
 
+        if(idade <= 10){
+            System.out.println("Bom dia criança!");
+        }else if(idade >= 11 && idade <= 15){
+            System.out.println("Vida difícil neh");
+        }else {
+            System.out.println("Ta ficando velha(o), ja pode se mata.");
+        }
+
         /*int idade = 16;
         boolean cafe = false;
         char[] nome = [{'r', 'a', 'i', 's', 's', 'a'}];
